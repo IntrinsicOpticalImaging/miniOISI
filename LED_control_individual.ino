@@ -36,17 +36,19 @@ void setup() {
   tlc.write();
 }
 
+// For this LED board both the "R" and "B" LEDs are red while the "G" LEDs are green.
+// This configuration has only the red LEDs on.
 void loop() {
-      tlc.setLED(1, 48000, 000, 48000);
+      tlc.setLED(1, 48000, 0, 48000);
       tlc.write();
 
-      tlc.setLED(2, 48000, 000, 48000);
+      tlc.setLED(2, 48000, 0, 48000);
       tlc.write();
 
-      tlc.setLED(3, 48000, 000, 48000);
+      tlc.setLED(3, 48000, 0, 48000);
       tlc.write();
 
-      tlc.setLED(0, 48000, 000, 48000);
+      tlc.setLED(0, 48000, 0, 48000);
       tlc.write();
       delay(300);
   
