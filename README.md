@@ -1,0 +1,1 @@
+miniOISI software and CAD files for the construction of the mini OISI system associated with the manuscript: "Head mounted optical imaging and optogenetic stimulation system for use in behaving primates".
